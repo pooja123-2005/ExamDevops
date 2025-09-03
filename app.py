@@ -12,3 +12,9 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+in this code it is telling that if we run it is giving 
+C:\EXAM 1279>python app.py
+Traceback (most recent call last):
+  File "C:\EXAM 1279\app.py", line 1, in <module>
+    from flask import Flask, request, render_template, url_for
+ModuleNotFoundError: No module named 'flask'
